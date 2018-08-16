@@ -1,5 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>testgit</groupId>
 	<artifactId>testgit</artifactId>
@@ -39,7 +40,7 @@
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
-			<version>2.3.0</version>
+			
 		</dependency>
 
 		<!-- \com\yc\smartupload\1.0 -->
@@ -66,7 +67,7 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
-			<version>1.2</version>
+			
 		</dependency>
 
 
@@ -110,9 +111,7 @@
 
 	</dependencies>
 
-	<properties>
-		<maven-jar-plugin.version>2.6</maven-jar-plugin.version>
-	</properties>
+	
 	<build>
 		<finalName>testgit</finalName>
 	</build>
